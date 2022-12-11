@@ -668,6 +668,7 @@ footer {
 background-color: #A42B23;
 color: #311288;
 text-align: center;
+justify-items: auto;
 font-size: 1.5rem;
 font-family: 'Montserrat', sans-serif;
 padding: 10px 0;
