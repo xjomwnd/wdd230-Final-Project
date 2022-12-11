@@ -100,7 +100,7 @@ header img {
   background-size: cover;
 }
 footer {
-  display: block;
+  display: flex;
 }
 footer img {
   max-width: 200px;
@@ -119,7 +119,6 @@ height: 100%;
 /* end of header small.css*/
 footer a {
   color: #311288;
-  align-content: center;
 }
 .nested{
   display: block;
