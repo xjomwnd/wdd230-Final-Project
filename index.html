@@ -1,57 +1,105 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
+
 <head>
     <meta charset="UTF-8">
-    <title>Assignment Portal | Joel Ndiba Mwaura</title>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Assignment portal for Joel Ndiba Mwaura in WDD 230: Web Frontend Development 1 at BYU - Idaho">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Final Project Portal</title>
+    <meta name="description" content="Assignment portal for Joel Ndiba Mwaura, WDD-230-1: Web Frontend Development, Brigham Young University - Idaho" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"> 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/small.css">
     <link rel="stylesheet" href="css/medium.css">
-    
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/style.css">
+    <script defer src="js/index.js"></script>
+    <script defer src="js/toggleMenu.js"></script>
+    <script defer src="js/alert.js"></script>
+    <script defer src='js/weatherapi.js'></script>
+    <script defer src="js/localEvents.js"></script>
 </head>
+
 <body>
+    <div class="alert">Saturday = Carlsbad Pancakes 🥞 in the Park! 9:00 a.m. Saturday at the city park pavilion.
+	</div>
     <header>
-        <img class="profile-picture" src="images/profile.png" alt="Profile Pictute">
-        <h1>Joel Ndiba Mwaura</h1>
+      <div class="headertop">
+      <div class="logo">
+      <picture>
+        <img src="images/fruits-32 x 32.png"
+        alt="logo">
+      </picture>
+      <hr><br>
+      </div>
+      <div class="reverse">
+        <div class="social">
+          <a href="https://www.youtube.com/" target="_blank">
+            <img src="images/toutube.jpg" alt="YouTube Icon">
+          </a>
+          <a href="https://www.instagram.com/" target="_blank">
+              <img src="images/instagram-48.webp" alt="instagram Icon" width="32" height="32">
+            </a>
+          <a href="https://www.twitter.com/" target="_blank">
+            <img src="images/twitter logo_icon.png" alt="Twitter Icon">
+          </a>
+        </div>
+      </div>
+      <h1>Final Project Portal</h1>
+      </div>
+    
     </header>
+    
+    <div class="menu">
+    <nav>
+    <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
+    <ul id="primaryNav">
+    <li><a href="https://xjomwnd.github.io/WDD-230-1/Lesson12/food.html" class="active">Home</a></li>
+    <li><a href="https://xjomwnd.github.io/WDD-230-1/Lesson13/fresh.html">Fresh</a></li>
+    <li><a href="https://xjomwnd.github.io/WDD-230-1/Lesson13/about.html">About</a></li>
+    <li><a href="#">Contact</a></li>
+    </ul>
+    </nav>
+    </div>   
+    
     <main>
-        <h2>WDD 230: Assignment Portal</h2> 
-        <hr>
-        <ul>
-            <li>Lesson 02: <a href="Lesson02/design-principles.html">Design Principles</a></li>
-            <li>Lesson 03: <a href="Lesson3/site-index.html">Site Plan Document</a></li>
-            <li>Lesson 04: <a href="Lesson04/chamber.html">Preston Chamber Site</a></li>
-            <li>Lesson 05: <a href="Lesson05/chamber-5.html">Preston Area</a></li>
-            <li>Lesson 06: <a href="Lesson06/home.html">Chamber Home Page</a></li>
-            <li>Lesson 10: <a href="Lesson10/weather.html">Weather API</a></li>
-            <li>Lesson 07: <a href="Lesson07/lazyload.html">Lazy Loading</a></li>
-            <li>Lesson 07: <a href="Lesson07/discover/discover.html">Discover</a></li>
-            <li>Lesson 08: <a href="Lesson08/tablebuild.html">Table Build</a></li>
-            <li>Lesson 08: <a href="Lesson08/join/join.html">Join</a> </li>
-            <li>Lesson 09: <a href="Lesson09/prophets.html">Prophets</a></li>
-            <li>Lesson 09: <a href="Lesson09/directory/wireframes.html">Wireframes</a></li>
-            <li>Lesson 09: <a href="Lesson09/directory/directory.html">Directory</a></li>
-            <li>Lesson 10: <a href="Lesson10/weatherapi.html">Using the Weather API</a></li>
-            <li>Lesson 11: <a href="Lesson11/contact.html">Contact</a></li>
+        
+        <div class="herodiv">
+          
+          <div class="hero-ph">
+		  
+            <h2>Final Project Portal</h2>
+          <picture>
+            <img src="images/coronado.jpg" alt="Carlsbad, California">
+          </picture>
+       </div>
+	   
+       </div>
+       <section>
+	    <ul>
+            
             <li>Lesson 12: <a href="Lesson12/site-plan.html">site-plan</a></li>
             <li>Lesson 12: <a href="Lesson12/food.html">Bountiful Foods</a></li>
             <li>Lesson 13: <a href="Lesson13/fresh.html">Fresh Page</a></li>
             <li>Lesson 13: <a href="Lesson13/about.html">About Page</a></li>
         </ul>
-        <hr>
-        <a href="https://xjomwnd.github.io/WDD-230-1/Lesson06/home.html"><strong>Chamber</strong></a>
-        <hr>
+      
+          </section>
+		  
+
     </main>
+    <fieldset><div id="date"></div> </fieldset>
     <footer>
-        <p>
-            &copy; <span id="year"></span> | Joel Ndiba Mwaura | Kenya East-Africa | <span>BYUI Online Student</span>  
-        </p>
-        <p class="last-update" id="lastModified"></p>
+      <div>
+      <h3>Bountiful Foods</h3>
+      
+      &copy;<span id="year"></span>|<span> Bountiful Foods</span> | BYU-Idaho | Joel Ndiba Mwaura |
+      <p class="last-update" id="lastModified"></p>
+      </div>
+        
     </footer>
     <script src="js/last-modified.js" defer></script>
+    
 </body>
+
 </html>

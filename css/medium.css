@@ -1,33 +1,83 @@
+/*==========medium.css===============*/
+@media only screen and (min-width:34.5em) {
 
-@media only screen and (min-width: 32.5em) {
-    header,
-    footer {
-      border-radius: 5px;
+    
+    /* ====================== MAIN SECTION ==================== */
+    main {
+      grid-template-columns: 23% 25% 25% 25%;
     }
   
-    #profilePic {
-      float: left;
-      max-width: 200px;
+    .herodiv img{
+      height: 25Srem;
     }
-
-    h1 {
-      font-size: 2.5rem;
+  
+    .hero {
+      grid-column: 1 / -1;
+      grid-row: 1;
     }
-
-    h2 {
-      font-size: 1.5rem;
+  
+    .news {
+      grid-column: 1 / -1;
+      grid-row: 2;
     }
-
-    header,
-  footer {
-    border-radius: 10px;
+  
+    .spotlight{
+      grid-auto-flow: column;
+      grid-column: 1 / 5;
+      grid-row: 3;
+    }
+  
+    .spotlight3 {
+      display: none
+    } 
+  
+    .join {
+      display: grid;
+      grid-column: 1 / -1;
+      grid-row: 4;
+    }
+  
+    .event {
+      grid-column: 1 / 4;
+      grid-row: 5;
+    }
+  
+    .weather {
+      grid-column: 4 / 5;
+      grid-row: 5;
+    }
+  /*/////////////////////////////////////////*/
+ 
+/*//////////////////////////////////////////////////////*/
+     /* ====================== FOOTER SECTION ==================== */
+  
+    footer {
+      grid-template-columns: 10% 40% 1fr;
+    }
+  
+    .imagefooter {
+      grid-column: 1 / 2;
+      grid-row: 1;
+    }
+  
+    .namefooter {
+      grid-column: 2 / 3;
+      grid-row: 1;
+    }
+  
+    .mapfooter {
+      grid-column: 3 / 4;
+      grid-row: 1;
+    }
+  
+  
+     /* footer js */
+  
+    .jsfooter1 {
+      flex-direction: row;
+    } 
   }
-
-  #profilePic {
-    box-shadow: 0 0 30px;
-    float: right;
-    border-radius: 0 10px 0 0;
-     
-      
-    }
-  }
+  
+  
+  /*==========end medium.css===============*/
+  
