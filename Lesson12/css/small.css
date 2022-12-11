@@ -100,7 +100,7 @@ header img {
   background-size: cover;
 }
 footer {
-  display: flex;
+  display: block;
 }
 footer img {
   max-width: 200px;

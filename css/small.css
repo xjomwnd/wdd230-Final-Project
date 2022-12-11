@@ -101,7 +101,7 @@ header img {
   text-align: center;
 }
 footer {
-  display: flex;
+  display: block;
 }
 footer img {
   max-width: 200px;
