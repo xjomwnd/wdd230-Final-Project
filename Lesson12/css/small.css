@@ -343,10 +343,11 @@ nav ul.open {
 
 /* ========================= */ 
 main {
-display: block;
-font-size: 15.3px;
-padding: 20px;
-}
+  display: block;
+  font-size: 15.3px;
+  padding: 20px;
+  }
+  
 main h2 {
 margin-bottom: auto;
 }

@@ -382,8 +382,8 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: 100%;
-  margin: 0 auto;
+ 
+  margin: 0 auto; width: 100%;
   border-bottom: 1px solid #bbb;
 }
 /*///////////////////////////////*/
