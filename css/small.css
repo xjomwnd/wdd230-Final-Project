@@ -98,6 +98,7 @@ header {
 header img {
   max-width: 200px;
   background-size: cover;
+  text-align: center;
 }
 footer {
   display: flex;
@@ -105,6 +106,7 @@ footer {
 footer img {
   max-width: 200px;
   background-size: cover;
+  justify-content: center;
 }
 /* import nav.css */
 body {
