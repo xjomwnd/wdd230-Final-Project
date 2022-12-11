@@ -1,0 +1,33 @@
+
+@media only screen and (min-width: 32.5em) {
+    header,
+    footer {
+      border-radius: 5px;
+    }
+  
+    #profilePic {
+      float: left;
+      max-width: 200px;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+    }
+
+    header,
+  footer {
+    border-radius: 10px;
+  }
+
+  #profilePic {
+    box-shadow: 0 0 30px;
+    float: right;
+    border-radius: 0 10px 0 0;
+     
+      
+    }
+  }

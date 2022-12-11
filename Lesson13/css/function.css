@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding:0;
+    font-family:Arial,Verdana,'Sans serif';
+  }
+  label{
+    font-size:1em;
+    font-weight:bold;
+  }
+  .container{
+    width:30%;
+    display:block;
+    margin:0 auto;
+    background-color:#efefef;
+    text-align:center;
+    padding:20px 
+  }
+  input[type="text"] {
+    box-sizing:border-box;
+    width:100%;
+    font-size:1.2em;
+    padding:5px 10px;
+  }
+  #phone-output{
+    display:block;
+    height:40px;
+    font-size:2em;
+    letter-spacing:0.2em;
+    color:#ffffff;
+    background-color:#404040;
+  }
+  #email-output{
+    display:block;
+    height:40px;
+    font-size:2em;
+    letter-spacing:0.2em;
+    color:#ffffff;
+    background-color:#404040;
+  }
+  #order-output{
+    display:block;
+    height:40px;
+    font-size:2em;
+    letter-spacing:0.2em;
+    color:#ffffff;
+    background-color:#404040;
+  }
+  
