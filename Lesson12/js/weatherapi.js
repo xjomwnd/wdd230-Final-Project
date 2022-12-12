@@ -31,7 +31,6 @@ fetch(apiURL)
     const windSpd = jsObject.list[0].wind.speed;
     document.querySelector("#windChill").textContent = windChill(temp, windSpd);
   });
-
 //5 day forecast
 fetch(apiURL)
   .then((response) => response.json())
@@ -63,7 +62,6 @@ fetch(apiURL)
       day++;
     });
   });
-
 // windChill factor
 function windChill(temp, windSpd) {
   if (temp < 50 && windSpd > 3) {
