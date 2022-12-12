@@ -17,6 +17,7 @@ main,
 footer {
   max-width: 900px;
   margin: 0 auto;
+  color: #000;
 }
 header,
 footer {
