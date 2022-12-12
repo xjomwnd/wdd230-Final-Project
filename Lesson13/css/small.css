@@ -10,7 +10,7 @@ body {
 }
 body {  
 width: 1000px;
-background-color: rgb(238, 238, 238);
+
 border: #E65F33;
 }
 
@@ -35,7 +35,7 @@ footer {
 }
 img {
   float: right;
-  border: #000;
+  border: #000
 }
 .body {
   border: #E65F33;
@@ -196,7 +196,7 @@ text-align: center;
 
 nav ul li a {
 display: block;
-padding: .8rem 2vw;
+padding: 0rem 2vw;
 font-size: 1.3rem;
 font-weight: 700;
 text-decoration: none;
@@ -218,7 +218,7 @@ nav ul { display: none; }
 
 nav ul.open { 
 display: block; 
-text-align: left;
+text-align: center;
 }
 
 #hamburgerBtn span:nth-child(1) { display: block; }
@@ -378,7 +378,7 @@ main {
 background-color:   #C8AD28;
 display: block;
 font-size: 15.3px;
-padding: 20px;
+padding: .5px;
 text-align: center;
 justify-content: center;
 }
