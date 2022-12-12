@@ -340,7 +340,89 @@ nav ul.open {
 
 /* ========================= */
 /*navigation*/
+/*///////////////////////////////////////////////////////////////////*/
+nav {
+  margin: 0 auto;
+  background-color: #9b5153;
+  background-image: linear-gradient(to right, #912a2d, #2094ca);
+  margin-top: -21px;
+}
 
+.navigation {
+  list-style: none;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+}
+
+.navigation li:first-child {
+  display: block;
+  height: 45px;
+}
+
+.container {
+  display: inline-block;
+  cursor: pointer;
+  margin-top: -10px;
+}
+
+#menu {
+  margin-top: 2px;
+  margin-left: 17px;
+
+}
+
+.bar1,
+.bar2,
+.bar3 {
+  width: 35px;
+  height: 5px;
+  background-color: white;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {
+  opacity: 0;
+}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+
+.navigation li {
+  display: none;
+}
+
+.navigation a {
+  display: block;
+  padding: 0.75rem;
+  text-align: left;
+  text-decoration: none;
+  font-weight: lighter;
+  color: white;
+  letter-spacing: .1em;
+  border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.active {
+  background-color: #cfc7c8;
+  /*background-image: linear-gradient( #a5040a, rgb(255, 238, 0));*/
+  box-shadow: rgb(227, 241, 252) 0px 0px 15px;
+}
+
+.ham a {
+  text-align: left;
+}
+
+
+
+/*////////////////////////////////////////////////////////////////////*/
 /* ========================= */ 
 main {
 display: block;

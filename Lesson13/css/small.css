@@ -76,21 +76,7 @@ display: block;
 .social img{
 float: right;
 }
-.navigation {
-list-style: none;
-padding: 0;
-}
-.navigation li:first-child {
-display: block;
-}
-.navigation li {
-display: none;
-}
 
-.navigation .active {
-color: white;
-font-weight: bold;
-}
 header {
 background-color: #A42B23;
 padding: 10px 0;
@@ -163,73 +149,74 @@ header img {
   letter-spacing: 1.5pt;
   font-size: 0.9rem;
 }
-}/* end header set icons.css */
+}
+/* end header set icons.css */
 
 
 .nav button{
-background: transparent;
-border: none;
-font-size: 2.5rem;
-color:#555;
-}
-
-.nav {
-background-color: #ebe7db;
-margin-right: .6rem;
-
-}
-nav {
-  margin: 0 auto;
-  font-size: 1.25rem;
-  background-color: #d2e8eb;
-  color: #f5f8f8
+  background: transparent;
+  border: none;
+  font-size: 2.5rem;
+  color:#555;
+  }
+  
+  .nav {
+  background-color: #ebe7db;
+  margin-right: .6rem;
+  
+  }
+  nav {
+    margin: 0 auto;
+    font-size: 1.25rem;
+    background-color: #d2e8eb;
+    color: #f5f8f8
+    
+    }
+    
+  nav ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  text-align: center;
   
   }
   
-nav ul {
-list-style-type: none;
-padding: 0;
-margin: 0;
-text-align: center;
-
-}
-
-nav ul li a {
-display: block;
-padding: 0rem 2vw;
-font-size: 1.3rem;
-font-weight: 700;
-text-decoration: none;
-color:#333;
-border-top: 1px solid rgba(0, 0, 0, 0.5);
-}
-
-nav ul li.active a {
-background-color: rgba(0,0,0,0.2);
-color: #fff;
-text-align: center;
-}
-
-nav ul li a:hover {
-background-color: rgba(0,0,0,0.3);
-}
-
-nav ul { display: none; }
-
-nav ul.open { 
-display: block; 
-text-align: center;
-}
-
-#hamburgerBtn span:nth-child(1) { display: block; }
-#hamburgerBtn span:nth-child(2) { display: none; }
-
-#hamburgerBtn.open span:nth-child(1) { display: none; }
-#hamburgerBtn.open span:nth-child(2) { display: block;}
-
-
-/*/////////////////////////////////////////////////////////////////////*/
-
+  nav ul li a {
+  display: block;
+  padding: 0rem 2vw;
+  font-size: 1.3rem;
+  font-weight: 700;
+  text-decoration: none;
+  color:#333;
+  border-top: 1px solid rgba(0, 0, 0, 0.5);
+  }
+  
+  nav ul li.active a {
+  background-color: rgba(0,0,0,0.2);
+  color: #fff;
+  text-align: center;
+  }
+  
+  nav ul li a:hover {
+  background-color: rgba(0,0,0,0.3);
+  }
+  
+  nav ul { display: none; }
+  
+  nav ul.open { 
+  display: block; 
+  text-align: center;
+  }
+  
+  #hamburgerBtn span:nth-child(1) { display: block; }
+  #hamburgerBtn span:nth-child(2) { display: none; }
+  
+  #hamburgerBtn.open span:nth-child(1) { display: none; }
+  #hamburgerBtn.open span:nth-child(2) { display: block;}
+  
+  
+  /*/////////////////////////////////////////////////////////////////////*/
+  
 #profilePic {
   max-width: 250px;
   height: auto;
@@ -294,6 +281,88 @@ footer a {
 .nested{
   display: block;
 }
+/*///////////////////////////////////////////////////////////////////*/
+nav {
+    margin: 0 auto;
+    background-color: #9b5153;
+    background-image: linear-gradient(to right, #912a2d, #2094ca);
+    margin-top: -21px;
+}
+
+.navigation {
+    list-style: none;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.navigation li:first-child {
+    display: block;
+    height: 45px;
+}
+
+.container {
+    display: inline-block;
+    cursor: pointer;
+    margin-top: -10px;
+}
+
+#menu {
+    margin-top: 2px;
+    margin-left: 17px;
+
+}
+
+.bar1,
+.bar2,
+.bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+    transition: 0.4s;
+}
+
+.change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {
+    opacity: 0;
+}
+
+.change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+}
+
+.navigation li {
+    display: none;
+}
+
+.navigation a {
+    display: block;
+    padding: 0.75rem;
+    text-align: left;
+    text-decoration: none;
+    font-weight: lighter;
+    color: white;
+    letter-spacing: .1em;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.active {
+    background-color: #cfc7c8;
+    /*background-image: linear-gradient( #a5040a, rgb(255, 238, 0));*/
+    box-shadow: rgb(227, 241, 252) 0px 0px 15px;
+}
+
+.ham a {
+    text-align: left;
+}
+
+
+
 /*////////////////////////////////////////////////////////////////////*/
 .formMain {
 max-width: 100%;
