@@ -107,12 +107,11 @@ header img {
 }
 footer {
 display: block;
-display: flex;
 padding: 10px 0;
 grid-template-columns: 1fr auto;
-align-items: left;
 width: 100%;
 height: auto;
+max-width: 100%;
 }
 footer img {
   max-width: 200px;
