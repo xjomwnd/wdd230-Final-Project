@@ -36,11 +36,11 @@ footer {
 }
 /*/////////////////////////////////////////////////////////////////////*/
 header {
-display: flex;
+display: block;
 flex-direction: column;
 }
 header img {
-max-width: 100%;
+max-width: 30px;
 align-self: center;
 }
 header p {
