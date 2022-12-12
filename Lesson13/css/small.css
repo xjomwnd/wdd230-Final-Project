@@ -5,7 +5,11 @@ body {
   text-align: center;
   font-family: 'Montserrat', sans-serif;
 }
-
+body {  
+  width: 1000px;
+  background-color: rgb(238, 238, 238);
+  }
+  
 header,
 main,
 footer {
