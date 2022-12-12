@@ -472,7 +472,61 @@ font-size: 17px;
           box-sizing: border-box;
 }
 /*/////////////////////////////////////////////////////////////////////*/
-
+header {
+  display: flex;
+  flex-direction: column;
+}
+header img {
+  max-width: 100%;
+  align-self: center;
+}
+header p {
+  font-weight: bold;
+  font-size: 1.5rem;
+  margin: 0;
+}
+header div{
+  margin: auto 1rem;
+}
+nav {
+	margin: 0 auto;
+	font-size: 1.25rem;
+	background-color: #d2e8eb;
+	color: #f5f8f8
+}
+.social img{
+  float: right;
+}
+.navigation {
+	list-style: none;
+	padding: 0;
+}
+.navigation li:first-child {
+	display: block;
+}
+.navigation li {
+	display: none;
+}
+.navigation a {
+	display: block;
+	padding: 0.75rem;
+	text-align: left;
+	text-decoration: none;
+	color: #108696;
+	font-weight: 700;
+	transition: 0.45s;
+}
+.navigation a:hover {
+	color: white;
+	background-color: #f5f8f8;
+}
+.navigation .active {
+  color: white;
+  font-weight: bold;
+}
+.responsive li {
+	display: block;
+}
 /*/main add/*/
 .curSum {
   margin: 5px auto;
