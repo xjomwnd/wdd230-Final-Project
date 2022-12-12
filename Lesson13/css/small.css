@@ -21,9 +21,22 @@ footer {
   color: #000;
   text-align: center;
 }
+.social main {
+  margin: 1px auto;
+  position: relative;
+  background-color: #C8AD28;
+  width: 100%;
+  padding: 50px;
+  border: solid blue 1px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
 
-
-
+.body {
+  border: #E65F33;
+  background-color:#E65F33;
+}
 .footer h1 {
   color: #000;
 }
