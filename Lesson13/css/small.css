@@ -9,7 +9,7 @@ body {
 header,
 main,
 footer {
-  max-width: 900px;
+ max-width: 900px;
   margin: 0 auto;
   color: #000;
 }
@@ -45,7 +45,7 @@ header {
   display: flex;
   padding: 10px 0;
   grid-template-columns: 1fr auto;
-  align-items: left;
+  align-items: center;
   width: 100%;
   height: auto;
   }
