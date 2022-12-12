@@ -704,11 +704,11 @@ label {
 
 }
 body {
-  background-color:   #E65F33;
+  
   padding: 1em;
   margin-bottom: 1em;
  background-origin: padding-box;
- border: #E65F33;
+
 }
 button, [type='submit'] {
   background-color: #1f1137;
@@ -716,6 +716,9 @@ button, [type='submit'] {
   font-weight: bold;
   border-radius: 50%;
   padding: 10px 15px;
+}
+.header button {
+  float: right;
 }
 main {
   background-color:   #C8AD28;
