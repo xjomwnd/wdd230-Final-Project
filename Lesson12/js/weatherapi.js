@@ -13,7 +13,7 @@ switch(page)
     break;
 }
 
-//Info for weather widget
+
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
@@ -32,7 +32,7 @@ fetch(apiURL)
     document.querySelector("#windChill").textContent = windChill(temp, windSpd);
   });
 
-//5 day forecast
+
 fetch(apiURL)
   .then((response) => response.json())
   .then((jsObject) => {
@@ -64,7 +64,7 @@ fetch(apiURL)
     });
   });
 
-// windChill factor
+
 function windChill(temp, windSpd) {
   if (temp < 50 && windSpd > 3) {
     const f =
