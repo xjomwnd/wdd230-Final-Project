@@ -4,8 +4,14 @@ body {
   color: #311288;
   font-family: "Roboto", sans-serif;
   text-align: center;
- 
+  line-height: 1.55em;
+  height: 100%;
 }
+body {  
+width: 1000px;
+background-color: rgb(238, 238, 238);
+}
+
 header,
 main,
 footer {
@@ -100,22 +106,19 @@ header img {
   background-size: cover;
 }
 footer {
-  display: block;
-  width: 100%;
+display: block;
+display: flex;
+padding: 10px 0;
+grid-template-columns: 1fr auto;
+align-items: left;
+width: 100%;
+height: auto;
 }
 footer img {
   max-width: 200px;
   background-size: cover;
 }
 /* import nav.css */
-body {
-  color: #311288;
-  width: 1000px;
-margin: auto;
-background-color: rgb(238, 238, 238);
-line-height: 1.55em;
-height: 100%;
-}
 
 /* end of header small.css*/
 footer a {
@@ -362,7 +365,7 @@ grid-template-columns: auto;
 
 header {
 display: flex;
-padding: 50px;
+padding: 10px 0;
 grid-template-columns: 1fr auto;
 align-items: left;
 width: 100%;
