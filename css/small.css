@@ -93,7 +93,7 @@ footer a {
   box-shadow: hwb(195 98% 1%) 0px 0px 15px;
 }
 header {
-  display: flex;
+  display: center;
 }
 header img {
   max-width: 200px;
