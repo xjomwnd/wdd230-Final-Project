@@ -40,7 +40,7 @@ display: block;
 flex-direction: column;
 }
 header img {
-max-width: 30px;
+max-width: 100%;
 align-self: center;
 }
 header p {
