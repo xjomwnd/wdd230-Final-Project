@@ -1,24 +1,28 @@
+/*//////////////////////////////////////////////////////////////////////*/
 body {
-  background-color: #C8AD28;
+  margin: auto;
+  background-color: white;
   color: #311288;
   font-family: "Roboto", sans-serif;
   text-align: center;
-  font-family: 'Montserrat', sans-serif;
-  border: #E65F33;
+  line-height: 1.55em;
+  height: 100%;
+}
+body {  
+width: 1000px;
+background-color: rgb(238, 238, 238);
 }
 
-body {  
-  width: 1000px;
-  border: #E65F33;
-  }
-  
 header,
 main,
 footer {
- max-width: 900px;
+  max-width: 900px;
   margin: 0 auto;
   color: #000;
 }
+
+
+
 .footer h1 {
   color: #000;
 }
@@ -47,20 +51,28 @@ margin: 0;
 header div{
 margin: auto 1rem;
 }
-header {
-  display: flex;
-  padding: 10px 0;
-  grid-template-columns: 1fr auto;
-  align-items: center;
-  width: 100%;
-  height: auto;
-  }
 
+.menu {
+display: block;
+}
+.social img{
+float: right;
+}
+.navigation {
+list-style: none;
+padding: 0;
+}
+.navigation li:first-child {
+display: block;
+}
+.navigation li {
+display: none;
+}
 
-/*///////////////////////////////////////////*/
-
-/*/////////////////////////////////////////////*/
-
+.navigation .active {
+color: white;
+font-weight: bold;
+}
 header {
 background-color: #A42B23;
 padding: 10px 0;
@@ -119,103 +131,85 @@ font-size: smaller;
 margin: 0;
 background-color: rgb(141, 158, 211);
 }
-/*///////////////////////////////////////////////////*/
-
-/*////////////////////////////////////////////////////*/
 
 /* Larger viewports */
-body {
-  border: #E65F33;
-  max-width: 100%;
-  margin: auto;
+@media only screen and (min-width: 32.5em) {
+header img {
+  width: 100%;
+}
+.headings h1 {
+  font-size: 2rem;
+  margin: 0;
+}
+.m {
+  letter-spacing: 1.5pt;
+  font-size: 0.9rem;
+}
+}/* end header set icons.css */
+
+
+.nav button{
+background: transparent;
+border: none;
+font-size: 2.5rem;
+color:#555;
+}
+
+.nav {
+background-color: #ebe7db;
+margin-right: .6rem;
+
+}
+nav {
+  margin: 0 auto;
+  font-size: 1.25rem;
+  background-color: #d2e8eb;
+  color: #f5f8f8
   
-  font-family: "Roboto", sans-serif;
-  line-height: 1.55em;
-  height: 100%;
   }
   
-  /* Larger viewports */
-  @media only screen and (min-width: 32.5em) {
-    header img {
-      width: 100%;
-    }
-    .headings h1 {
-      font-size: 2rem;
-      margin: 0;
-    }
-    .m {
-      letter-spacing: 1.5pt;
-      font-size: 0.9rem;
-    }
-  }/* end header set icons.css */
-  
-  /* end header set icons.css */
-  
-  
-  .nav button{
-  background: transparent;
-  border: none;
-  font-size: 2.5rem;
-  color:#555;
-  }
-  
-  .nav {
-    background-color: #ebe7db;
-    margin-right: .6rem;
-    
-    }
-    nav {
-    margin: 0 auto;
-    font-size: 1.25rem;
-    background-color: #d2e8eb;
-    color: #f5f8f8
-    
-    }
-    
-    
-    nav ul {
-      list-style-type: none;
-      padding: 0;
-      margin: 0;
-      text-align: center;
-      justify-content: center;
-    }
-    
-    nav ul li a {
-      display: block;
-      padding: .8rem 2vw;
-      font-size: 1.3rem;
-      font-weight: 700;
-      text-decoration: none;
-      color:#333;
-      border-top: 1px solid rgba(0, 0, 0, 0.5);
-    }
-    
-    nav ul li.active a {
-      background-color: rgba(0,0,0,0.2);
-      color: #fff;
-      text-align: center;
-    }
-    
-    nav ul li a:hover {
-      background-color: rgba(0,0,0,0.3);
-    }
-    
-    nav ul { display: none; }
-    
-    nav ul.open { 
-      display: block; 
-      text-align: left;
-    }
-    
-    #hamburgerBtn span:nth-child(1) { display: block; }
-    #hamburgerBtn span:nth-child(2) { display: none; }
-    
-    #hamburgerBtn.open span:nth-child(1) { display: none; }
-    #hamburgerBtn.open span:nth-child(2) { display: block;}
-    
-  
-  
+nav ul {
+list-style-type: none;
+padding: 0;
+margin: 0;
+text-align: center;
+justify-content: center;
+}
+
+nav ul li a {
+display: block;
+padding: .8rem 2vw;
+font-size: 1.3rem;
+font-weight: 700;
+text-decoration: none;
+color:#333;
+border-top: 1px solid rgba(0, 0, 0, 0.5);
+}
+
+nav ul li.active a {
+background-color: rgba(0,0,0,0.2);
+color: #fff;
+text-align: center;
+}
+
+nav ul li a:hover {
+background-color: rgba(0,0,0,0.3);
+}
+
+nav ul { display: none; }
+
+nav ul.open { 
+display: block; 
+text-align: left;
+}
+
+#hamburgerBtn span:nth-child(1) { display: block; }
+#hamburgerBtn span:nth-child(2) { display: none; }
+
+#hamburgerBtn.open span:nth-child(1) { display: none; }
+#hamburgerBtn.open span:nth-child(2) { display: block;}
+
+
 /*/////////////////////////////////////////////////////////////////////*/
 
 #profilePic {
@@ -390,19 +384,40 @@ margin: 0 20rem;
 .bttn-container {
 text-align: center;
 }
-/*/////////////////////////////////*/
-
-header {
-  background-color: #A42B23;
-  padding: 10px 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  margin: 0 auto; width: 100%;
-  border-bottom: 1px solid #bbb;
+/*//////////////////////////////////
+.card {
+display: flex;
+flex-direction: column;
+justify-content: flex-end;
+align-items: center;
+width: 8.1rem;
+background-color: white;
+border: 5px black solid;
+box-shadow: 4px 4px 19px black;
 }
-/*///////////////////////////////*/
+////////////////////////////////*/
 
+
+body {
+background-color:   #E65F33;
+padding: 1em;
+margin-bottom: 1em;
+background-origin: padding-box;
+border: #E65F33;
+}
+button, [type='submit'] {
+background-color: #1f1137;
+color: #fff;
+font-weight: bold;
+border-radius: 50%;
+padding: 10px 15px;
+}
+main {
+background-color:   #C8AD28;
+display: block;
+font-size: 15.3px;
+padding: 20px;
+}
 /*////////////////////////////////////*/
 button, [type='submit'] {
 background-color: #1f1137;
@@ -412,33 +427,3 @@ border-radius: 50%;
 padding: 10px 15px;
 }
 /*////////////////////////////////////*/
-
-button, [type='submit'] {
-  background-color: #1f1137;
-  color: #fff;
-  font-weight: bold;
-  border-radius: 50%;
-  padding: 10px 15px;
-}
-main {
-  background-color:   #C8AD28;
-  display: block;
-  font-size: 15.3px;
-  padding: 20px;
-  border: #E65F33;
-  }
-/*////////////////////////////////////*/
-/*////////////////////////////////////////FRUITS MIXER//////////////////////////*/
-
-footer {
-  display: block;
-  padding: 10px 0;
-  grid-template-columns: 1fr auto;
-  width: 100%;
-  height: auto;
-  max-width: 100%;
-  
-  }
-
-
-/*////////////////////////////////////////// MIXER //////////////////////////////////////*/
