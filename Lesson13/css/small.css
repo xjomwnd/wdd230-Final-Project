@@ -229,7 +229,7 @@ text-align: left;
   height: 50px;
   width: 50px;
   border-radius: 50px;
-  float: left;
+  float: inherit;
   }
 
 
@@ -403,7 +403,7 @@ background-color:   #E65F33;
 padding: 1em;
 margin-bottom: 1em;
 background-origin: padding-box;
-border: #E65F33;
+border: #000;
 }
 button, [type='submit'] {
 background-color: #1f1137;
@@ -417,6 +417,7 @@ background-color:   #C8AD28;
 display: block;
 font-size: 15.3px;
 padding: 20px;
+color: #E65F33;
 }
 /*////////////////////////////////////*/
 button, [type='submit'] {
