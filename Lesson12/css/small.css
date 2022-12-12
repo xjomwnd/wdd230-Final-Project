@@ -640,3 +640,10 @@ main {
   padding: 20px;
   }
 /*////////////////////////////////////*/
+/*date.css*/
+#lastModified {
+  text-align: center;
+  font-size: smaller;
+  margin: 0;
+  background-color: rgb(141, 158, 211);
+  }
