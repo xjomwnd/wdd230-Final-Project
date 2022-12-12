@@ -1,7 +1,7 @@
 /*//////////////////////////////////////////////////////////////////////*/
 body {
   margin: auto;
-  background-color: white;
+  background-color: #E65F33;
   color: #311288;
   font-family: "Roboto", sans-serif;
   text-align: center;
@@ -19,6 +19,7 @@ footer {
   max-width: 900px;
   margin: 0 auto;
   color: #000;
+  text-align: center;
 }
 
 
@@ -173,7 +174,7 @@ list-style-type: none;
 padding: 0;
 margin: 0;
 text-align: center;
-justify-content: center;
+
 }
 
 nav ul li a {
@@ -229,7 +230,7 @@ text-align: left;
   height: 50px;
   width: 50px;
   border-radius: 50px;
-  float: inherit;
+  float: left;
   }
 
 
@@ -258,6 +259,7 @@ padding: 20px;
 font-weight: 500;
 margin: 1px auto;
 border: solid blue 1px;
+text-align: left;
 }
 main h2 {
 margin-bottom: auto;
@@ -277,7 +279,7 @@ footer a {
 }
 /*////////////////////////////////////////////////////////////////////*/
 .formMain {
-max-width: 465px;
+max-width: 100%;
 margin: auto;
 padding: 50px;
 }
@@ -338,64 +340,7 @@ display: flex;
 align-items: center;
 }
 /*/////////////////////////////////////////////*/
-.card {
-display: flex;
-flex-direction: column;
-align-items: center;
-}
-.item-container {
-display: flex;
-flex-wrap: wrap;
-justify-content: space-around;
-align-items: flex-end;
-}
-.page-header img {
-display: block;
-margin: 0 auto;
-width: 21rem;
-}
-label {
-font-size: 20px;
-}
-.search-container {
-display: flex;
-justify-content: center;
-}
-.card img {
-width: 50px;
-margin: 10px auto 0;
-}
-.card h3 {
-font-size: .75rem;
-text-align: center;
-}
-.P {
-color: #000;
-}
-.h1 {
-color: #000;
-}
-.item-container {
-display: flex;
-flex-flow: row wrap;
-justify-content: space-around;
-margin: 0 20rem;
-}
-.bttn-container {
-text-align: center;
-}
-/*//////////////////////////////////
-.card {
-display: flex;
-flex-direction: column;
-justify-content: flex-end;
-align-items: center;
-width: 8.1rem;
-background-color: white;
-border: 5px black solid;
-box-shadow: 4px 4px 19px black;
-}
-////////////////////////////////*/
+
 
 
 body {
@@ -417,7 +362,8 @@ background-color:   #C8AD28;
 display: block;
 font-size: 15.3px;
 padding: 20px;
-color: #E65F33;
+text-align: center;
+justify-content: center;
 }
 /*////////////////////////////////////*/
 button, [type='submit'] {
