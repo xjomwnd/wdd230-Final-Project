@@ -125,10 +125,10 @@ background-color: rgb(141, 158, 211);
 
 /* Larger viewports */
 body {
-  color: #311288;
+  border: #E65F33;
   max-width: 100%;
   margin: auto;
-  background-color: rgb(238, 238, 238);
+  
   font-family: "Roboto", sans-serif;
   line-height: 1.55em;
   height: 100%;
@@ -412,13 +412,7 @@ border-radius: 50%;
 padding: 10px 15px;
 }
 /*////////////////////////////////////*/
-body {
-  background-color:   #E65F33;
-  padding: 1em;
-  margin-bottom: 1em;
- background-origin: padding-box;
- border: #E65F33;
-}
+
 button, [type='submit'] {
   background-color: #1f1137;
   color: #fff;
@@ -431,6 +425,7 @@ main {
   display: block;
   font-size: 15.3px;
   padding: 20px;
+  border: #E65F33;
   }
 /*////////////////////////////////////*/
 /*////////////////////////////////////////FRUITS MIXER//////////////////////////*/
