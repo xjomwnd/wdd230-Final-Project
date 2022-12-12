@@ -41,7 +41,14 @@ margin: 0;
 header div{
 margin: auto 1rem;
 }
-
+header {
+  display: flex;
+  padding: 10px 0;
+  grid-template-columns: 1fr auto;
+  align-items: left;
+  width: 100%;
+  height: auto;
+  }
 .menu {
 display: block;
 }
@@ -382,7 +389,6 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
- height: auto;
   margin: 0 auto; width: 100%;
   border-bottom: 1px solid #bbb;
 }
