@@ -362,7 +362,7 @@ grid-template-columns: auto;
 
 header {
 display: flex;
-padding: 0px;
+padding: 50px;
 grid-template-columns: 1fr auto;
 align-items: left;
 width: 100%;
