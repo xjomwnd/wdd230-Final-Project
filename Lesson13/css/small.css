@@ -133,46 +133,7 @@ margin: 0;
 background-color: rgb(141, 158, 211);
 }
 /*///////////////////////////////////////////////////*/
-#icon {
-  position: -webkit-sticky;
-  position: sticky;
-  top: 0;
-  max-width: 100px;
-  max-height: 100px;
-  border: 2px solid #074915;
-  border-radius: 10px;
-  box-shadow: hwb(195 98% 1%) 0px 0px 15px;
-}
 
-nav {
-  background-color: #b4c0d4;
-  color: #311288;
-  font-size: 1.5rem;
-  padding: 1.5px;
-}
-nav a,
-footer a {
-  color: #2395A4;
-  text-decoration: none;
-}
-.navigation {
-  list-style-type: none;
-  padding: 0;
-}
-li {
-  padding: 10px;
-}
-.navigation li {
-  display: none;
-}
-.navigation a {
-  display: block;
-  color: #2395A4;  
-}
-img {
-  width: 200px;
-  height: auto;
-}
 /*////////////////////////////////////////////////////*/
 /* Larger viewports */
 @media only screen and (min-width: 32.5em) {
