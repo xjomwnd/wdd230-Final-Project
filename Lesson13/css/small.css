@@ -6,6 +6,7 @@ body {
   font-family: 'Montserrat', sans-serif;
   border: #E65F33;
 }
+
 body {  
   width: 1000px;
   background-color: rgb(238, 238, 238);
@@ -137,64 +138,78 @@ background-color: rgb(141, 158, 211);
 /*///////////////////////////////////////////////////*/
 
 /*////////////////////////////////////////////////////*/
-/* Larger viewports */
-
-  /* end header set icons.css */
+body {
+  color: #311288;
+  max-width: 100%;
+  margin: auto;
+  background-color: rgb(238, 238, 238);
+  font-family: "Roboto", sans-serif;
+  line-height: 1.55em;
+  height: 100%;
+  }
   
+  /* Larger viewports */
+  @media only screen and (min-width: 32.5em) {
+    header img {
+      width: 100%;
+    }
+    .headings h1 {
+      font-size: 2rem;
+      margin: 0;
+    }
+    .m {
+      letter-spacing: 1.5pt;
+      font-size: 0.9rem;
+    }
+  }/* end header set icons.css */
   
+    
   .nav button{
-  background: transparent;
-  border: none;
-  font-size: 2.5rem;
-  color:#555;
+    background: transparent;
+    border: none;
+    font-size: 2.5rem;
+    color:#555;
   }
   
   .nav {
-  background-color: #ebe7db;
-  margin-right: .6rem;
-  
-  }
-  nav {
-  margin: 0 auto;
-  font-size: 1.25rem;
-  background-color: #d2e8eb;
-  color: #f5f8f8
-  
+    background-color: #ebe7db;
+    margin-right: .6rem;
+    
   }
   
   nav ul {
-  list-style-type: none;
-  padding: 0;
-  margin: 0;
-  text-align: center;
-  justify-content: center;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    justify-content: center;
   }
   
   nav ul li a {
-  display: block;
-  padding: .8rem 2vw;
-  font-size: 1.3rem;
-  font-weight: 700;
-  text-decoration: none;
-  color:#333;
-  border-top: 1px solid rgba(0, 0, 0, 0.5);
+    display: block;
+    padding: .8rem 2vw;
+    font-size: 1.3rem;
+    font-weight: 700;
+    text-decoration: none;
+    color:#333;
+    border-top: 1px solid rgba(0, 0, 0, 0.5);
   }
   
   nav ul li.active a {
-  background-color: rgba(0,0,0,0.2);
-  color: #fff;
-  text-align: center;
+    background-color: rgba(0,0,0,0.2);
+    color: #fff;
+    text-align: center;
   }
   
   nav ul li a:hover {
-  background-color: rgba(0,0,0,0.3);
+    background-color: rgba(0,0,0,0.3);
   }
   
   nav ul { display: none; }
   
   nav ul.open { 
-  display: block; 
-  text-align: left;
+    display: block; 
+    text-align: left;
   }
   
   #hamburgerBtn span:nth-child(1) { display: block; }
@@ -204,6 +219,7 @@ background-color: rgb(141, 158, 211);
   #hamburgerBtn.open span:nth-child(2) { display: block;}
   
   
+  /*/////////////////////////////////////////////////////////////////////*/
 /*/////////////////////////////////////////////////////////////////////*/
 
 #profilePic {
