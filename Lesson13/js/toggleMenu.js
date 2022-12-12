@@ -5,7 +5,8 @@ function toggleMenu() {
 
 const x = document.getElementById('hamburgerBtn')
 x.onclick = toggleMenu;
-///////////////////////////////////////////////////////////////////////
+
+/////////////////////////////////////////////////////////////////////////////////
 function toggleMenu() {
     document.getElementsByClassName("navigation")[0].classList.toggle("responsive");
 }
