@@ -95,6 +95,7 @@ margin-left: 1rem;
 .logo img {
 width: 100%;
 height: auto;
+float: left;
 }
 .headings {
 display: flex;
