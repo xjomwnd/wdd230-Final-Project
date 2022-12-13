@@ -89,7 +89,7 @@ border-bottom: 1px solid #bbb;
 }
 .logo {
 display: flex;
-align-items: center;
+align-items: left;
 margin-left: 1rem;
 }
 .logo img {
