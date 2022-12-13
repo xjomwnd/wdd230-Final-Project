@@ -445,7 +445,7 @@ padding: 10px 15px;
 }
 main {
 background-color:   #C8AD28;
-display: block;
+display: flex;
 font-size: 15.3px;
 padding: .5px;
 text-align: center;
