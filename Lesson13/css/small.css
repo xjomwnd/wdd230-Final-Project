@@ -34,7 +34,7 @@ footer {
           box-sizing: border-box;
 }
 img {
-  float: center;
+  float: flex;
   border: #000
 }
 .body {
