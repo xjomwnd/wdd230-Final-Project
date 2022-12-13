@@ -89,7 +89,6 @@ border-bottom: 1px solid #bbb;
 }
 .logo {
 display: block;
-align-items: left;
 margin-left: 1rem;
 }
 .logo img {
@@ -127,7 +126,7 @@ width: 3%;
 height: 3%;
 align-items: flex-start;
 float: right;
-padding: auto;
+padding: none;
 }
 /*date.css*/
 #lastModified {
