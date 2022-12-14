@@ -166,8 +166,8 @@ li {
   color: #2395A4;  
 }
 img {
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: auto;
 }
 .location img {
   width: 5px;
