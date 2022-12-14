@@ -471,10 +471,3 @@ border-radius: 50%;
 padding: 10px 15px;
 }
 /*////////////////////////////////////*/
-body {
-  background-color:   #E65F33;
-  padding: 1em;
-  margin-bottom: 1em;
- background-origin: padding-box;
- border: #E65F33;
-}

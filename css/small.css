@@ -725,13 +725,7 @@ label {
   box-shadow: 4px 4px 19px black;
 
 }
-body {
-  background-color:   #E65F33;
-  padding: 1em;
-  margin-bottom: 1em;
- background-origin: padding-box;
- border: #E65F33;
-}
+
 button, [type='submit'] {
   background-color: #1f1137;
   color: #fff;
