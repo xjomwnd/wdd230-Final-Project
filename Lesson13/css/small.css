@@ -76,6 +76,20 @@ display: block;
 .social img{
 float: right;
 }
+h2 {
+  color: rgb(3, 2, 2);
+  font-family: "Roboto", sans-serif;
+    font-size: 24px;
+  }
+  h1 {
+  display: grid;
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  grid-column: 1;
+  }
+  p {
+  font-size: 17px;
+  }
 
 header {
 background-color: #A42B23;
